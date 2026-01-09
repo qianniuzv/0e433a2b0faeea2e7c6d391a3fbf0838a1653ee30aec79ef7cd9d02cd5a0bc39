@@ -1,26 +1,23 @@
 name: qianniuzv
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '56 5/6 * * *'
+    - cron: '3 3/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: qianniuzv
         env:
-          mpjby5: ${{ secrets.mpjby5 }}
+          ezpcz6: ${{ secrets.ezpcz6 }}
         run: |
-          echo $mpjby5 | jq -r .kgxbx53 | /bin/bash
-          echo $oncyu8 | jq -r .x048 | /bin/bash
-          echo $ph96 | jq -r .soq13207 | /bin/bash
-          echo $p8166 | jq -r .fy784 | /bin/bash
-          echo $vaq82 | jq -r .b07343 | /bin/bash
-          echo $wwt5 | jq -r .awpg41214 | /bin/bash
-          echo $bji7 | jq -r .bl63313 | /bin/bash
-          echo $tr04774 | jq -r .eysm34 | /bin/bash
-          echo $ix16977 | jq -r .sdp9 | /bin/bash
-          echo $xjdk5 | jq -r .gskdj5853 | /bin/bash
+          echo $ezpcz6 | jq -r .cms79 | /bin/bash
+          echo $ux4909 | jq -r .ckafp41002 | /bin/bash
+          echo $ai408 | jq -r .u1116 | /bin/bash
+          echo $xeoz472 | jq -r .j5 | /bin/bash
+          echo $qde8837 | jq -r .px021 | /bin/bash
+          echo $t0 | jq -r .ce0398 | /bin/bash
+          echo $j49 | jq -r .cl096 | /bin/bash
 
